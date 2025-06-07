@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        body{
+            margin: 10px;
+        }
+        header{
+            background-color:#185a9b; 
+            color:#fff; 
+            padding:40px 0; 
+            text-align:center;
+            border-radius: 10px;
+        }
+        h1{
+            margin:0; font-size:3em; letter-spacing:2px
+        }
+        .experience{
+            font-size:1.3em; margin-top:10px;
+        }
+        a{
+            color:#fff; margin:0 15px; text-decoration:none; font-weight:bold;
+        }
+        #hero{
+            background:url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1500&q=80') center/cover no-repeat;
+             height:400px; display:flex; align-items:center;
+             justify-content:center;
+             border-radius: 10px;
+        }
+
+        .div1{
+            background:rgba(44,62,80,0.7); 
+            padding:40px 60px;
+             border-radius:10px;
+        }
+        #menu, #about, #contact{
+            padding:60px 0; text-align:center;
+            padding:60px 0; background:#f8f8f8;
+        }
+        .menulink{
+            display:inline-block; margin-top:20px; 
+            padding:12px 30px; background:#e67e22; 
+            color:#fff; border-radius:5px; 
+            text-decoration:none; font-weight:bold; 
+            font-size:1.1em;
+        }
+        .h2-1{
+            color:#fff; 
+            font-size:2.5em; 
+            margin:0;
+        }
+        .p1{
+            color:#fff; font-size:1.2em;
+             margin-top:10px;
+        }
+    
+             
+
+        footer{
+            background:#222; 
+            color:#fff; text-align:center;
+             padding:20px 0;
+        }
+
+
+
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+    <h1 >Delizia Restaurant</h1>
+    <p class="experience">Experience the Taste of Authentic Cuisine</p>
+    <nav style="margin-top:20px; border:solid 3px rgb(55, 185, 211);
+    display:inline-block">
+        <a class="menuh" href="#menu" ><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 0 24 24" width="30px" fill="white"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 5.69l5 4.5V18h-2v-6H9v6H7v-7.81l5-4.5M12 3L2 12h3v8h6v-6h2v6h6v-8h3L12 3z"/></svg></a>
+        <a class="abouth" href="#about" ><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 0 24 24" width="30px" fill="white"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M11 7h2v2h-2zm0 4h2v6h-2zm1-9C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/></svg></a>
+        <a class="contacth" href="#contact"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 0 24 24" width="30px" fill="white"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M11 23.59v-3.6c-5.01-.26-9-4.42-9-9.49C2 5.26 6.26 1 11.5 1S21 5.26 21 10.5c0 4.95-3.44 9.93-8.57 12.4l-1.43.69zM11.5 3C7.36 3 4 6.36 4 10.5S7.36 18 11.5 18H13v2.3c3.64-2.3 6-6.08 6-9.8C19 6.36 15.64 3 11.5 3zm-1 11.5h2v2h-2zm2-1.5h-2c0-3.25 3-3 3-5 0-1.1-.9-2-2-2s-2 .9-2 2h-2c0-2.21 1.79-4 4-4s4 1.79 4 4c0 2.5-3 2.75-3 5z"/></svg></a>
+    </nav>
+</header>
+
+<section id="hero">
+    <div class="div1">
+        <h2 class="h2-1">Welcome to Delizia</h2>
+        <p class="p1">Savor the flavors of Italy in the heart of your city</p>
+        <a class="menulink" href="#menu">View Menu</a>
+    </div>
+</section>
+
+<section id="menu">
+    <div style="max-width:900px; margin:auto; text-align:center;">
+        <h2 style="font-size:2em; margin-bottom:10px; color:#2c3e50;">Our Popular Dishes</h2>
+        <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">
+            <div style="background:#fff; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.07); width:260px; padding:20px;">
+                <img src="pasta.png" alt="Pasta" style="width:100%; height: 200px; border-radius:6px;">
+                <h3 style="margin:15px 0 5px;">Classic Pasta</h3>
+                <p style="color:#888;">Homemade pasta with rich tomato sauce and fresh basil.</p>
+            </div>
+            <div style="background:#fff; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.07); width:260px; padding:20px;">
+                <img src="Sharwama.png" alt="Pizza" style="width:100%;height:auto ; border-radius:6px;">
+                <h3 style="margin:15px 0 5px;">Shawarma</h3>
+                <p style="color:#888;">Crispy thin crust pizza topped with fresh mozzarella and basil.</p>
+            </div>
+            <div style="background:#fff; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.07); width:260px; padding:20px;">
+                <img src="Pizza.png" alt="Tiramisu" style="width:100%; border-radius:6px;">
+                <h3 style="margin:15px 0 5px;">Pizza</h3>
+                <p style="color:#888;">Classic Italian dessert with coffee-soaked ladyfingers and mascarpone.</p>
+            </div>
+            <div style="background:#fff; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.07); width:260px; padding:20px;">
+                <img src="Jollof rice.png" alt="Tiramisu" style="width:100%; border-radius:6px;">
+                <h3 style="margin:15px 0 5px;">Jollof rice</h3>
+                <p style="color:#888;">Classic Italian dessert with coffee-soaked ladyfingers and mascarpone.</p>
+            </div>
+            <div style="background:#fff; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.07); width:260px; padding:20px;">
+                <img src="https://images.unsplash.com/photo-1464306076886-debca5e8a6b0?auto=format&fit=crop&w=400&q=80" alt="Tiramisu" style="width:100%; border-radius:6px;">
+                <h3 style="margin:15px 0 5px;">Fufu and Soup</h3>
+                <p style="color:#888;">Classic Italian dessert with coffee-soaked ladyfingers and mascarpone.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="about" style="padding:60px 0;">
+    <div style="max-width:800px; margin:0 auto; text-align:center;">
+        <h2 style="font-size:2em; color:#2c3e50;">About Us</h2>
+        <p style="font-size:1.1em; color:#555; margin-top:20px;">
+            At Delizia, we are passionate about bringing the authentic flavors of Italy to your table. Our chefs use only the freshest ingredients to craft dishes that delight your senses. Whether you're joining us for a family dinner or a romantic evening, we promise a memorable dining experience.
+        </p>
+    </div>
+</section>
+
+<section id="contact" style="background:#2c3e50; color:#fff; padding:50px 0;">
+    <div style="max-width:700px; margin:0 auto; text-align:center;">
+        <h2 style="font-size:2em;">Contact Us</h2>
+        <p style="margin:20px 0 30px;">123 Main Street, Your City<br>Phone: (123) 456-7890<br>Email: info@delizia.com</p>
+        <form style="max-width:400px; margin:0 auto; text-align:left;">
+            <input type="text" placeholder="Your Name" required style="width:100%; padding:10px; margin-bottom:10px; border:none; border-radius:4px;">
+            <input type="email" placeholder="Your Email" required style="width:100%; padding:10px; margin-bottom:10px; border:none; border-radius:4px;">
+            <textarea placeholder="Your Message" required style="width:100%; padding:10px; margin-bottom:10px; border:none; border-radius:4px; resize:vertical;"></textarea>
+            <button type="submit" style="background:#e67e22; color:#fff; padding:10px 25px; border:none; border-radius:4px; font-size:1em; font-weight:bold; cursor:pointer;">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    &copy; 2024 Delizia Restaurant. All rights reserved.
+</footer>
+    
+</body>
+</html>
